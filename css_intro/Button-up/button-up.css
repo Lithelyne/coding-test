@@ -2,22 +2,23 @@
 .add,
 .primary {
     display: block;
-    margin-bottom: 10px;
-    height: 40px;
+    margin-bottom: 25px;
+    height: 30px;
+    margin-left: 5px;
 }
 
 .search {
     font-weight: 1000;
     width: 150px;
     border-radius: 20px;
-    color: #7dc8c8;
-    border: 2px solid #7dc8c8;
+    color: #6fb3b3;
+    border: 3px solid #7dc8c8;
     background-color: #fff;
 }
 
 .add {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color: #00d1b2;
     color: #fff;
     border-radius: 50%;
@@ -25,7 +26,7 @@
 }
 
 .create {
-    width: 200px;
+    width: 175px;
     background-color: #2b78e4;
     color: #fff;
     border: 3px solid #000;
