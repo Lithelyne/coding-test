@@ -1,12 +1,12 @@
-.btn-search,
-.brn-add,
-.btn-primary {
+.search,
+.add,
+.primary {
     display: block;
     margin-bottom: 10px;
     height: 40px;
 }
 
-.btn-search {
+.search {
     font-weight: 1000;
     width: 150px;
     border-radius: 20px;
@@ -15,7 +15,7 @@
     background-color: #fff;
 }
 
-.btn-add {
+.add {
     width: 40px;
     height: 40px;
     background-color: #00d1b2;
@@ -24,7 +24,7 @@
     border: none;
 }
 
-.btn-primary {
+.create {
     width: 200px;
     background-color: #2b78e4;
     color: #fff;
