@@ -4,13 +4,13 @@
     padding: 10px;
 }
 
+img.octocat {
+    height: 200px;
+}
+
 h1 {
     text-align: center;
     margin-top: 0;
-}
-
-img.octocat {
-    height: 200px;
 }
 
 .row {
