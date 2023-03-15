@@ -1,0 +1,22 @@
+.container {
+    background-color: black;
+    height: 600px;
+    width: 600px;
+    display: flex;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.whitetop {
+    width: 160px;
+    height: 200px;
+    background-color: white;
+}
+.red {
+    background-color: red;
+    width: 450px;
+    height: 450px;
+    justify-content: right;
+}
