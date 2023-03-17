@@ -10,7 +10,6 @@
 
 .nav {
     width: 1100px;
-    /* do not do 100% bad idea messes up text*/
     margin: 0 auto;
     color: #ffffff;
     height: 80px;
