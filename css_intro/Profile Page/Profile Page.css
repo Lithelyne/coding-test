@@ -3,12 +3,14 @@
     padding: 0;
 }
 
+/* <!-------------------------- Top of Page --------------------------> */
 .top {
     background-color: #0f0f0f;
 }
 
 .nav {
     width: 1100px;
+    /* do not do 100% bad idea messes up text*/
     margin: 0 auto;
     color: #ffffff;
     height: 80px;
@@ -44,6 +46,7 @@
     margin-right: 10px;
 }
 
+/* <!-------------------------- Below header --------------------------> */
 .container {
     width: 1080px;
     margin: 0 auto;
@@ -52,6 +55,7 @@
 .row {
     display: flex;
 }
+
 
 .col, .col-2 {
     margin: 10px;
@@ -63,6 +67,7 @@
     flex: 1;
 }
 
+/* <!-------------------------- Top of the left column --------------------------> */
 .user-card, .card {
     width: 100%;
     background-color: #fff;
@@ -104,6 +109,7 @@ a {
     color: #3a81e6;
 }
 
+/* <!-------------------------- Bottom of the left column --------------------------> */
 .bottom-left-header {
     background-color: #202020;
     padding: 20px;
@@ -124,6 +130,7 @@ a {
     margin: 25px 0px;
 }
 
+/* <!-------------------------- Top of the right column --------------------------> */
 .top-right-header {
     background-color: #202020;
     padding: 20px;
@@ -161,6 +168,7 @@ a {
     margin-right: 10px;
 }
 
+/* <!-------------------------- Bottom of the Right column --------------------------> */
 .bottom-right-header {
     background-color: #202020;
     padding: 20px;
