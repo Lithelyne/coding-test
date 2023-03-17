@@ -1,12 +1,16 @@
 function reverseArray(arr) {
-    let reversedArr = [];
-    for (let i = arr.length - 1; i >= 0; i--) {
-    reversedArr.push(arr[i]);
+    for (var left=0; left<arr.length/2; left++) {
+        var right = arr.length-1-left; {
+            var temp=arr[left]
+            arr[left] = arr[right]
+            arr[right] = temp;
+        }
     }
-    return reversedArr;
-    }
-    
-    const arr = ["a", "b", "c", "d", "e"];
-    const reversedArr = reverseArray(arr);
-    
-    console.log(reversedArr); 
+
+    return arr;
+
+}
+
+
+var myArray = ["a", "b", "c", "d", "e"];
+console.log(reverseArray(myArray));
