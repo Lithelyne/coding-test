@@ -21,19 +21,19 @@
     border-radius: 5px;
 }
 
-.header {
+.Top {
     background-color: rgb(34, 184, 184);
     height: 125px;
     margin-bottom: 80px;    
 }
 
-.body {
+.Bottom {
     padding: 40px;
     margin-left: 15px;
 }
 
 .pfp {
-    border-radius: 65%;
+    border-radius: 50%;
     height: 200px;
     padding: 10px;
     margin-top: 20px;
