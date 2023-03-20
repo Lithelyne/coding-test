@@ -1,5 +1,5 @@
 function turnOff(element) {
-    if (element.innerText = "Logout");
+    element.innerText = "Logout";
 }
 
 function hide(element) {
