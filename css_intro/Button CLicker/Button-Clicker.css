@@ -55,7 +55,6 @@
 /* This holds both boxes on the left, flex-direction utilized to put them in a column */
 
 .ninja-section {
-    display: flex;
     flex-direction: column;
     width: calc(66.66%);
 }
@@ -105,7 +104,6 @@
 }
 
 .dojo-left {
-    /* display: flex; */
     font-size: 36px;
     justify-content: space-between;
     align-items: center;
