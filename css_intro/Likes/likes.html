@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="likes.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <a href="#">Network</a>
+        </div>
+    </div>
+
+    <div class="feed-container">
+        <h1>Your Feed</h1>
+    </div>
+
+    <div class="content">
+        <div class="left">
+            <img class="avatar" src="./icons/user-circle.png" alt="user-circle"><br>
+            <a href="#">Add an avatar</a>
+            <p>James Doe</p>
+        </div>
+
+        <div class="right">
+            <div class="feed-box-upper">
+                <div>
+                    <h3>Neil M</h3>
+                </div>
+                <div>
+                    <p id="count-1">9 like(s)</p>
+                </div>
+                <div>
+                    <button onclick="add1()" class="yellow-button">Like</button>
+                </div>
+
+            </div>
+            <div class="feed-box-lower">
+                <p>I just set up this new discord bot, let me <br>
+                know what you all think. <a href="#">link</a></p>
+            </div>
+
+            <div class="feed-box-upper">
+                <div>
+                    <h3>Nichole K</h3>
+                </div>
+                <div>
+                    <p id="count-2">12 like(s)</p>
+                </div>
+                <div>
+                    <button onclick="add2()" class="yellow-button">Like</button>
+                </div>
+
+            </div>
+
+            <div class="feed-box-lower">
+                <p>Just finished my <a href="#">next comic,</a> check it out</p>
+
+            </div>
+
+            <div class="feed-box-upper">
+                <div>
+                    <h3>Jim R</h3>
+                </div>
+                <div>
+                    <p id="count-3">9 likes</p>
+                </div>
+                <div>
+                    <button onclick="add3()" class="yellow-button">Like</button>
+                </div>
+
+            </div>
+            <div class="feed-box-lower">
+                <p>I can't stop listening to the <a href="#">new album.</a><br>
+                Who else is liking it?</p>
+            </div>
+        </div>
+
+        <script src="likes.js"></script>
+</body>
+
+</html>

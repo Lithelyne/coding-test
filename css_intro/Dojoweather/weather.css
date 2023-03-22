@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar area */
+
+nav {
+    height: 100px;
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav h1 {
+    font-size: 42px;
+}
+
+/* main section */
+.main {
+    width: 800px;
+    height: 450px;
+    margin: auto 0;
+    
+}
+
+.sub-nav {
+    height: 100px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 0;
+    border-bottom: 2px solid black;
+}
+
+.weather-card {
+    width: 175px;
+    height: 350px;
+    background: lightgrey;
+    text-align: center;
+}
+
+.weather-card-area {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.weather-card h3 {
+    margin-top: 15px;
+}
+
+.weather-card img {
+    width: 175px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.weather-numbers {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+
+/* cookie section */
+.cookie {
+    margin: 0 auto;
+    height: 100px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cookie-image {
+    margin: 15px
+}
+.cookie-description {
+    width: 600px;
+}
+
+.cookie button {
+    
+}
